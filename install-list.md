@@ -5,3 +5,5 @@
 - Gnome Desktop
 - vim
 - chrome
+- shadowsocks
+- proxychains

@@ -20,7 +20,7 @@ in file `~/.bashrc`
 export PATH=$PATH:/usr/local/python27/bin/
 ```
 
-#make yum work as well
+# make yum work as well
 
 in file `/bin/yum`
 
