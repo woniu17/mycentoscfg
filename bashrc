@@ -5,9 +5,7 @@
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
-#alias vi='vim'
-alias vi='/root/bin/vim/bin/vim'
-alias vim='/root/bin/vim/bin/vim'
+alias vi='vim'
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -26,3 +24,6 @@ function PWD1 {
 export PS1="\u@\$(PWD1)";
 
 export PATH=$PATH:/usr/local/git/bin
+export PATH=$PATH:/usr/local/vim/bin
+export PATH=$PATH:/usr/local/python36/bin/
+export PATH=$PATH:/usr/local/python27/bin/
