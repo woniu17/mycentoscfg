@@ -22,3 +22,11 @@ mv vimrc ~/.vimrc
 vim
 :BundleInstall
 ```
+
+# install YCM
+
+```shell
+yum install cmake
+cd /root/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
+```
