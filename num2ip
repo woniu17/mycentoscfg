@@ -1,0 +1,4 @@
+#!/bin/bash
+# 16777343 -> 127.0.0.1
+ipnum=$1
+ip=`printf "%08x" $ipnum` ; printf "%d.%d.%d.%d\n" 0x${ip:6:2} 0x${ip:4:2} 0x${ip:2:2} 0x${ip:0:2}
