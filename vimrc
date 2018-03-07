@@ -22,10 +22,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Bundle 'kien/ctrlp.vim'
-Bundle 'Valloric/YouCompleteMe'
 Plugin 'dkprice/vim-easygrep'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'fholgado/minibufexpl.vim'
+Bundle 'Valloric/YouCompleteMe'
 call vundle#end()            " required
 "filetype plugin indent on    " required
 
