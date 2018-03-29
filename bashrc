@@ -22,7 +22,3 @@ function PWD1 {
 	fi
 }
 export PS1="\u@\$(PWD1)";
-
-export PATH=$PATH:/usr/local/vim/bin
-export PATH=$PATH:/usr/local/python36/bin/
-export PATH=$PATH:/usr/local/python27/bin/
